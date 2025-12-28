@@ -4,7 +4,7 @@ output "client_id" {
 
 output "client_secret" {
   value = azuread_application_password.secret.value
-  sensitive = true
+  sensitive = false
 }
 
 output "tenant_id" {
